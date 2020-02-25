@@ -18,7 +18,14 @@ class _IndexState extends State<IndexPage> {
               },
             ),
           ),
-          Card()
+          Card(
+            child: ListTile(
+              title: Text('AnimatedPadding'),
+              onTap: () {
+                Navigator.of(context).pushNamed('/animated_padding');
+              },
+            ),
+          )
         ],
       ),
     );
