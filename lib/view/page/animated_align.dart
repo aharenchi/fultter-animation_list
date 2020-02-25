@@ -7,6 +7,7 @@ class AnimatedAlignPage extends StatefulWidget {
 }
 
 class _AnimatedAlignPageState extends State<AnimatedAlignPage> {
+
   static const _alignments = [
     Alignment.topLeft,
     Alignment.topRight,
@@ -47,6 +48,4 @@ class _AnimatedAlignPageState extends State<AnimatedAlignPage> {
       ),
     );
   }
-
-  void moveWidget() {}
 }
